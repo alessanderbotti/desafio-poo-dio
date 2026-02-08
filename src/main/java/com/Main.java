@@ -1,7 +1,8 @@
-import br.com.dio.desafio.dominio.Bootcamp;
-import br.com.dio.desafio.dominio.Curso;
-import br.com.dio.desafio.dominio.Dev;
-import br.com.dio.desafio.dominio.Mentoria;
+package com;
+import com.dominio.Bootcamp;
+import com.dominio.Curso;
+import com.dominio.Dev;
+import com.dominio.Mentoria;
 
 import java.time.LocalDate;
 
@@ -57,7 +58,5 @@ public class Main {
         System.out.println("Conteúdos Inscritos João:" + devJoao.getConteudosInscritos());
         System.out.println("Conteúdos Concluidos João:" + devJoao.getConteudosConcluidos());
         System.out.println("XP:" + devJoao.calcularTotalXp());
-
     }
-
 }
